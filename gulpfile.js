@@ -42,3 +42,5 @@ gulp.task('compass',function(){
 gulp.task('log',function(){
     gutil.log("hello");
 });
+
+gulp.task('default',['coffee','js','compass']);
